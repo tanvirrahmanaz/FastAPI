@@ -83,3 +83,14 @@ def home():
     return {
         "message" : "BugOps API is running"
     }
+
+@app.get("/bugs")
+def get_bugs(
+    status: str | None = None,
+    severity: str | None = None,
+    project: str | None = None,
+    keyword: str | None = None,
+    limit: int = 10,
+    offset: int = 0
+):
+    result = bugs.copy
