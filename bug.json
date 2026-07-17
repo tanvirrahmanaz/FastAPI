@@ -1,0 +1,32 @@
+bugs = {
+    "BUG-001": {
+        "title": "Login button not working",
+        "description": "User clicks login button but nothing happens",
+        "severity": "High",
+        "priority": "P1",
+        "status": "Open",
+        "project": "Maison PMS",
+        "assigned_to": "developer_1",
+        "reported_by": "qa_1"
+    },
+    "BUG-002": {
+        "title": "Reservation export missing",
+        "description": "Export CSV button is not visible on reservation page",
+        "severity": "Medium",
+        "priority": "P2",
+        "status": "In Progress",
+        "project": "Maison PMS",
+        "assigned_to": "developer_2",
+        "reported_by": "qa_1"
+    },
+    "BUG-003": {
+        "title": "Candidate score not updating",
+        "description": "Interview score remains old after refresh",
+        "severity": "High",
+        "priority": "P1",
+        "status": "Open",
+        "project": "HireFlow",
+        "assigned_to": "developer_3",
+        "reported_by": "qa_2"
+    }
+}
